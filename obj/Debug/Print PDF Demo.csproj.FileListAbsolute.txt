@@ -1,0 +1,17 @@
+C:\Users\eduar\source\repos\Print PDF Demo\bin\Debug\Print PDF Demo.exe.config
+C:\Users\eduar\source\repos\Print PDF Demo\bin\Debug\Print PDF Demo.exe
+C:\Users\eduar\source\repos\Print PDF Demo\bin\Debug\Print PDF Demo.pdb
+C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\Print PDF Demo.csprojAssemblyReference.cache
+C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\MainPage.g.cs
+C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\MainWindow.g.cs
+C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\App.g.cs
+C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\Print PDF Demo_MarkupCompile.cache
+C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\Print PDF Demo_MarkupCompile.lref
+C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\MainPage.baml
+C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\MainWindow.baml
+C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\Print PDF Demo.g.resources
+C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\Print_PDF_Demo.Properties.Resources.resources
+C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\Print PDF Demo.csproj.GenerateResource.cache
+C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\Print PDF Demo.csproj.CoreCompileInputs.cache
+C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\Print PDF Demo.exe
+C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\Print PDF Demo.pdb
