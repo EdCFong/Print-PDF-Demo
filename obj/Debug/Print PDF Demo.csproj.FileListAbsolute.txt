@@ -15,3 +15,37 @@ C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\Print PDF Demo.csproj.Gener
 C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\Print PDF Demo.csproj.CoreCompileInputs.cache
 C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\Print PDF Demo.exe
 C:\Users\eduar\source\repos\Print PDF Demo\obj\Debug\Print PDF Demo.pdb
+C:\MyDocuments\Projects\WPF projects\Print PDF Demo\bin\Debug\Print PDF Demo.exe.config
+C:\MyDocuments\Projects\WPF projects\Print PDF Demo\bin\Debug\Print PDF Demo.exe
+C:\MyDocuments\Projects\WPF projects\Print PDF Demo\bin\Debug\Print PDF Demo.pdb
+C:\MyDocuments\Projects\WPF projects\Print PDF Demo\obj\Debug\Print PDF Demo.csprojAssemblyReference.cache
+C:\MyDocuments\Projects\WPF projects\Print PDF Demo\obj\Debug\MainPage.g.cs
+C:\MyDocuments\Projects\WPF projects\Print PDF Demo\obj\Debug\MainWindow.g.cs
+C:\MyDocuments\Projects\WPF projects\Print PDF Demo\obj\Debug\App.g.cs
+C:\MyDocuments\Projects\WPF projects\Print PDF Demo\obj\Debug\Print PDF Demo_MarkupCompile.cache
+C:\MyDocuments\Projects\WPF projects\Print PDF Demo\obj\Debug\Print PDF Demo_MarkupCompile.lref
+C:\MyDocuments\Projects\WPF projects\Print PDF Demo\obj\Debug\MainPage.baml
+C:\MyDocuments\Projects\WPF projects\Print PDF Demo\obj\Debug\MainWindow.baml
+C:\MyDocuments\Projects\WPF projects\Print PDF Demo\obj\Debug\Print PDF Demo.g.resources
+C:\MyDocuments\Projects\WPF projects\Print PDF Demo\obj\Debug\Print_PDF_Demo.Properties.Resources.resources
+C:\MyDocuments\Projects\WPF projects\Print PDF Demo\obj\Debug\Print PDF Demo.csproj.GenerateResource.cache
+C:\MyDocuments\Projects\WPF projects\Print PDF Demo\obj\Debug\Print PDF Demo.csproj.CoreCompileInputs.cache
+C:\MyDocuments\Projects\WPF projects\Print PDF Demo\obj\Debug\Print PDF Demo.exe
+C:\MyDocuments\Projects\WPF projects\Print PDF Demo\obj\Debug\Print PDF Demo.pdb
+C:\Users\Eduardo\Documents\Print PDF Demo\bin\Debug\Print PDF Demo.exe.config
+C:\Users\Eduardo\Documents\Print PDF Demo\bin\Debug\Print PDF Demo.exe
+C:\Users\Eduardo\Documents\Print PDF Demo\bin\Debug\Print PDF Demo.pdb
+C:\Users\Eduardo\Documents\Print PDF Demo\obj\Debug\Print PDF Demo.csprojAssemblyReference.cache
+C:\Users\Eduardo\Documents\Print PDF Demo\obj\Debug\MainPage.g.cs
+C:\Users\Eduardo\Documents\Print PDF Demo\obj\Debug\MainWindow.g.cs
+C:\Users\Eduardo\Documents\Print PDF Demo\obj\Debug\App.g.cs
+C:\Users\Eduardo\Documents\Print PDF Demo\obj\Debug\Print PDF Demo_MarkupCompile.cache
+C:\Users\Eduardo\Documents\Print PDF Demo\obj\Debug\Print PDF Demo_MarkupCompile.lref
+C:\Users\Eduardo\Documents\Print PDF Demo\obj\Debug\MainPage.baml
+C:\Users\Eduardo\Documents\Print PDF Demo\obj\Debug\MainWindow.baml
+C:\Users\Eduardo\Documents\Print PDF Demo\obj\Debug\Print PDF Demo.g.resources
+C:\Users\Eduardo\Documents\Print PDF Demo\obj\Debug\Print_PDF_Demo.Properties.Resources.resources
+C:\Users\Eduardo\Documents\Print PDF Demo\obj\Debug\Print PDF Demo.csproj.GenerateResource.cache
+C:\Users\Eduardo\Documents\Print PDF Demo\obj\Debug\Print PDF Demo.csproj.CoreCompileInputs.cache
+C:\Users\Eduardo\Documents\Print PDF Demo\obj\Debug\Print PDF Demo.exe
+C:\Users\Eduardo\Documents\Print PDF Demo\obj\Debug\Print PDF Demo.pdb

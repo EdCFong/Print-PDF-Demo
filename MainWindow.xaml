@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Print_PDF_Demo"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="800" Width="500">
     <Grid>
         <Frame x:Name="MyFrame" NavigationUIVisibility="Hidden"/>

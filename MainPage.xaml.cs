@@ -1,17 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
 using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+
+
 
 namespace Print_PDF_Demo
 {
@@ -29,11 +21,18 @@ namespace Print_PDF_Demo
         {
             try
             {
+                //forPrint.PageHeight = InchToPoint(paperSizeA4.Height); // paperSizeA4.Height: integer value
+                //forPrint.PageWidth = forPrint.ColumnWidth = InchToPoint(paperSizeA4.Width); // paperSizeA4.Width: integer value
+                forPrint.PagePadding = new Thickness(40);
+                DocumentPaginator docPaginator = ((IDocumentPaginatorSource)forPrint).DocumentPaginator;
+                docPaginator.ComputePageCount();
+
+
                 this.IsEnabled = false;
-                PrintDialog My_printDialog = new PrintDialog();
-                if(My_printDialog.ShowDialog() == true)
+                PrintDialog My_printDialog = new PrintDialog();      
+                if (My_printDialog.ShowDialog() == true)
                 {
-                    My_printDialog.PrintVisual(forPrint, "My PDF print");
+                    My_printDialog.PrintDocument(docPaginator, "My PDF print");
                 }
             }
             finally

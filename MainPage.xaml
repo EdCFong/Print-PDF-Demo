@@ -6,6 +6,7 @@
       xmlns:local="clr-namespace:Print_PDF_Demo"
       mc:Ignorable="d" 
       d:DesignHeight="800" d:DesignWidth="500"
+     
       Title="MainPage">
 
     <Grid Background="White">
@@ -14,45 +15,147 @@
             <RowDefinition Height="5*"/>
         </Grid.RowDefinitions>
         <Button x:Name="PrintButton" Content="Print" Margin="300 20 20 20" FontSize="28" Click="PrintButton_Click"/>
-        <StackPanel x:Name="forPrint" Grid.Row="1">
-            <TextBlock FontSize="42" Margin="30 10" FontFamily="MS UI Gothic">
+
+        <FlowDocumentScrollViewer Grid.Row="1" Margin="0 0 0 20">
+            <FlowDocument x:Name="forPrint">
+                <Section>
+                    <BlockUIContainer>
+                        <StackPanel>
+                            <TextBlock FontSize="42" Margin="30 10" FontFamily="MS UI Gothic">
                 Lorem Ipsum
-            </TextBlock>
-            <TextBlock Margin="15" FontFamily="High Tower Text" FontSize="16" LineStackingStrategy="BlockLineHeight" TextWrapping="Wrap">
+                            </TextBlock>
+                            <TextBlock Margin="15" FontFamily="High Tower Text" FontSize="16" LineStackingStrategy="BlockLineHeight" TextWrapping="Wrap">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur
                 auctor dolor et semper. Morbi eget egestas nisi. Integer erat libero, tincidunt
                 sit amet sollicitudin et, efficitur ut purus. In cursus massa non metus tincidunt
                 rhoncus. Donec consectetur congue felis, nec elementum dolor. Vivamus tempor lorem sed 
                 arcu fringilla vestibulum. Etiam imperdiet est velit, a congue neque laoreet non.
                 Nam varius arcu a urna eleifend, at interdum risus facilisis. Curabitur in gravida velit.
-            </TextBlock>
-            <Grid Margin="15" MinHeight="2" MinWidth="450">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
-                <TextBlock Grid.Column="0" Grid.Row="0"  Text="Morbi eget" Margin="5"/>
-                <TextBlock Grid.Column="1" Grid.Row="0" Text="5236" Margin="5"/>
-                <TextBlock Grid.Column="2" Grid.Row="0" Text="87" Margin="5"/>
-                <TextBlock Grid.Column="0" Grid.Row="1" Text="Sit amet" Margin="5"/>
-                <TextBlock Grid.Column="1" Grid.Row="1" Text="6276" Margin="5"/>
-                <TextBlock Grid.Column="2" Grid.Row="1" Text="25" Margin="5"/>
-                <TextBlock Grid.Column="0" Grid.Row="2" Text="Curabitur" Margin="5"/>
-                <TextBlock Grid.Column="1" Grid.Row="2" Text="669" Margin="5"/>
-                <TextBlock Grid.Column="2" Grid.Row="2" Text="63" Margin="5"/>
-            </Grid>
-            <TextBlock Margin="15" FontFamily="High Tower Text" FontSize="16" LineStackingStrategy="BlockLineHeight" TextWrapping="Wrap">
+                            </TextBlock>
+                            <Grid Margin="15" MinHeight="2" MinWidth="450">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <TextBlock Grid.Column="0" Grid.Row="0"  Text="Morbi eget" Margin="5"/>
+                                <TextBlock Grid.Column="1" Grid.Row="0" Text="5236" Margin="5"/>
+                                <TextBlock Grid.Column="2" Grid.Row="0" Text="87" Margin="5"/>
+                                <TextBlock Grid.Column="0" Grid.Row="1" Text="Sit amet" Margin="5"/>
+                                <TextBlock Grid.Column="1" Grid.Row="1" Text="6276" Margin="5"/>
+                                <TextBlock Grid.Column="2" Grid.Row="1" Text="25" Margin="5"/>
+                                <TextBlock Grid.Column="0" Grid.Row="2" Text="Curabitur" Margin="5"/>
+                                <TextBlock Grid.Column="1" Grid.Row="2" Text="669" Margin="5"/>
+                                <TextBlock Grid.Column="2" Grid.Row="2" Text="63" Margin="5"/>
+                            </Grid>
+                            <TextBlock Margin="15" FontFamily="High Tower Text" FontSize="16" LineStackingStrategy="BlockLineHeight" TextWrapping="Wrap">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur
                 auctor dolor et semper. Morbi eget egestas nisi. Integer erat libero, tincidunt
                 sit amet sollicitudin et, efficitur ut purus. Curabitur in gravida velit.
-            </TextBlock>
-        </StackPanel>
+                            </TextBlock>
+                        </StackPanel>
+
+                    </BlockUIContainer>
+
+
+
+                    <BlockUIContainer>
+                        <StackPanel>
+                            <TextBlock FontSize="42" Margin="30 10" FontFamily="MS UI Gothic">
+                Lorem Ipsum
+                            </TextBlock>
+                            <TextBlock Margin="15" FontFamily="High Tower Text" FontSize="16" Foreground="Red" LineStackingStrategy="BlockLineHeight" TextWrapping="Wrap">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur
+                auctor dolor et semper. Morbi eget egestas nisi. Integer erat libero, tincidunt
+                sit amet sollicitudin et, efficitur ut purus. In cursus massa non metus tincidunt
+                rhoncus. Donec consectetur congue felis, nec elementum dolor. Vivamus tempor lorem sed 
+                arcu fringilla vestibulum. Etiam imperdiet est velit, a congue neque laoreet non.
+                Nam varius arcu a urna eleifend, at interdum risus facilisis. Curabitur in gravida velit.
+                            </TextBlock>
+                            <Grid Margin="15" MinHeight="2" MinWidth="450">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <TextBlock Grid.Column="0" Grid.Row="0"  Text="Morbi eget" Margin="5"/>
+                                <TextBlock Grid.Column="1" Grid.Row="0" Text="5236" Margin="5"/>
+                                <TextBlock Grid.Column="2" Grid.Row="0" Text="87" Margin="5"/>
+                                <TextBlock Grid.Column="0" Grid.Row="1" Text="Sit amet" Margin="5"/>
+                                <TextBlock Grid.Column="1" Grid.Row="1" Text="6276" Margin="5"/>
+                                <TextBlock Grid.Column="2" Grid.Row="1" Text="25" Margin="5"/>
+                                <TextBlock Grid.Column="0" Grid.Row="2" Text="Curabitur" Margin="5"/>
+                                <TextBlock Grid.Column="1" Grid.Row="2" Text="669" Margin="5"/>
+                                <TextBlock Grid.Column="2" Grid.Row="2" Text="63" Margin="5"/>
+                            </Grid>
+                            <TextBlock Margin="15" FontFamily="High Tower Text" FontSize="16" LineStackingStrategy="BlockLineHeight" TextWrapping="Wrap">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur
+                auctor dolor et semper. Morbi eget egestas nisi. Integer erat libero, tincidunt
+                sit amet sollicitudin et, efficitur ut purus. Curabitur in gravida velit.
+                            </TextBlock>
+                        </StackPanel>
+                    </BlockUIContainer>
+
+
+                    <BlockUIContainer>
+                        <StackPanel>
+                            <TextBlock FontSize="42" Margin="30 10" FontFamily="MS UI Gothic">
+                Bla bla bla
+                            </TextBlock>
+                            <TextBlock Margin="15" FontFamily="High Tower Text" FontSize="16" Foreground="Green" LineStackingStrategy="BlockLineHeight" TextWrapping="Wrap">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur
+                auctor dolor et semper. Morbi eget egestas nisi. Integer erat libero, tincidunt
+                sit ametongue felis, nec elementum dolor. Vivamus tempor lorem sed 
+                arcu fringilla vestibulum. Etiam imperdiet est velit, a congue neque laoreet non.
+                Nam varius arcu a urna eleifend, at interdum risus facilisis. Curabitur in gravida velit.
+                            </TextBlock>
+                            <Grid Margin="15" MinHeight="2" MinWidth="450">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <TextBlock Grid.Column="0" Grid.Row="0"  Text="Morbi eget" Margin="5"/>
+                                <TextBlock Grid.Column="1" Grid.Row="0" Text="5236" Margin="5"/>
+                                <TextBlock Grid.Column="2" Grid.Row="0" Text="87" Margin="5"/>
+                                <TextBlock Grid.Column="0" Grid.Row="1" Text="Sit amet" Margin="5"/>
+                                <TextBlock Grid.Column="1" Grid.Row="1" Text="6276" Margin="5"/>
+                                <TextBlock Grid.Column="2" Grid.Row="1" Text="25" Margin="5"/>
+                                <TextBlock Grid.Column="0" Grid.Row="2" Text="Curabitur" Margin="5"/>
+                                <TextBlock Grid.Column="1" Grid.Row="2" Text="669" Margin="5"/>
+                                <TextBlock Grid.Column="2" Grid.Row="2" Text="63" Margin="5"/>
+                            </Grid>
+                            <TextBlock Margin="15" FontFamily="High Tower Text" FontSize="16" LineStackingStrategy="BlockLineHeight" TextWrapping="Wrap">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur
+                auctor dolor et semper. Morbi eget egestas nisi. Integer erat libero, tincidunt
+                sit amet sollicitudin et, efficitur ut purus. Curabitur in gravida velit.
+                            </TextBlock>
+                        </StackPanel>
+                    </BlockUIContainer>
+                </Section>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+        
+
+       
+
     </Grid>
 </Page>
